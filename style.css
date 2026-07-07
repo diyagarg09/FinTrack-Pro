@@ -1,0 +1,60 @@
+*{
+    position:fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%;
+}
+body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc; /* Light slate background */
+            color: #1e293b;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between; /* Pushes components to left, center, right */
+    align-items: center;
+    padding: 0 24px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* Clean bottom shadow */
+    z-index: 1000; /* Keeps navbar sitting safely on top of other content */
+}
+
+.nav-logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1e293b;
+}
+.nav-logo span {
+    color: #4f46e5; /* Distinct indigo accent color for branding */
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #64748b;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.nav-btn.active, .nav-btn:hover {
+    color: #1e293b;
+    background-color: #f1f5f9;
+}
