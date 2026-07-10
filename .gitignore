@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables (keep secrets safe)
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Lock files (optional — include package-lock.json for reproducibility)
+# package-lock.json

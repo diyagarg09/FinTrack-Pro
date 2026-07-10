@@ -11,6 +11,11 @@ FinTrack Pro is a modern and responsive Personal Finance Management Web Applicat
 - 💵 Income & Expense Tracking
 - 💳 Add & Delete Transactions
 - 📈 Cash Flow Analysis using Charts
+- 📊 Expense Categories with Interactive Analytics (Doughnut & Bar charts)
+- 🎯 Monthly Budget Planning with visual status indicators
+- 📥 Export transaction ledger to CSV & print-friendly PDF reports
+- 🏷️ Custom Category Management (Add & delete custom categories)
+- 💾 Data Backup & Restore (JSON export & import)
 - 🔍 Search Transactions
 - 🏷️ Filter by Transaction Type
 - 🌙 Dark Mode Support
@@ -111,10 +116,6 @@ No additional installation is required.
 
 - Firebase Authentication
 - Cloud Database Integration
-- Expense Categories with Analytics
-- Monthly Reports
-- Export to PDF/Excel
-- Budget Planning
 - Email Notifications
 - Mobile App Version
 
