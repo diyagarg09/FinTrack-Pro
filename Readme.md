@@ -207,17 +207,7 @@ http://localhost:3000
 
 ---
 
-## 👩‍💻 Developer
 
-**Diya Garg**
-
-B.Tech CSE (Artificial Intelligence)
-
-Banasthali Vidyapith
-
-GitHub: https://github.com/diyagarg09
-
----
 
 ## 📄 License
 
